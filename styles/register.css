@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#register-form {
+    border: 1px solid red;
+    width: 30%;
+    margin: 50px auto;
+}
+
+
+#register-form > form > input {
+    display: block;
+    margin: auto;
+}
+
+
+#register-form > h2 {
+    text-align: center;
+}
