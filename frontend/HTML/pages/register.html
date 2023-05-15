@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<   !DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -36,6 +36,7 @@
                 id="password"
                 placeholder="enter password..."
             />
+            <input type="file" id="image-file" />
             <input type="submit" value="REGISTER" />
         </form>
     </div>
@@ -50,7 +51,8 @@
         e.preventDefault();
 
         let username = document.querySelector("#username").value;
+        let image = document.querySelector("#image-file").value;
 
-        console.log('username: ',username);
+        console.log('username: ',username, 'image: ',image);
     }
 </script>
